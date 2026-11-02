@@ -16,3 +16,12 @@ h1,article{overflow-wrap:anywhere}
 .case--eyarc .case-panel,.case--other .case-panel,.case--eyarc .case-equation,.case--other .case-equation{background:#f6f6f6}
 .case--eyarc th,.case--other th{background:#f0f0f0}
 .case--eyarc .source-notice{color:#4d4d4d}
+
+/* SparkED keeps its source-embedded logo and workflow illustration. */
+.case--alteryx_sparked{--purple:#006a91;--line:#d4dce0}
+.case--alteryx_sparked header{border-top:4px solid #a89c67;padding-top:1.25rem}
+.case--alteryx_sparked th{background:#edf5f8}
+.case--alteryx_sparked .case-panel,.case--alteryx_sparked .case-equation{background:#f6f8f9}
+.case--alteryx_sparked td{text-align:left}
+.case--alteryx_sparked .table-scroll table{min-width:34rem}
+@media print{.case--alteryx_sparked .table-scroll table{min-width:0}}
